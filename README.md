@@ -3,3 +3,5 @@
 it is a static web page 
 <br>
 it includes only html and css 
+Added
+#done with first commit
