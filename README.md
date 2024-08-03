@@ -5,3 +5,4 @@ it is a static web page
 it includes only html and css 
 Added
 #done with first commit
+edited in git side.
