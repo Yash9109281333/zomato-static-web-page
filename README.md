@@ -2,6 +2,8 @@
 # THIS IS MY FIRST WEBSITE 
 <BR>
  IT IS STATIC
+
+ ##setup created here for our application
  
 =======
 this is zomato static web page
