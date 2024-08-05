@@ -38,8 +38,6 @@
 }
 
 
-
-
 .hero_section_container{
     display: flex;
     flex-direction: column;
@@ -73,12 +71,11 @@
 .input_containe_location,.input_container_search{
     padding: 5px;
     border: none;
-    outline: none;
-    text-align: left;
 }
-.input_containe_location{
+outline: none;
+.input_container_location{
     width:32%;
-    border-right: 1px solid gray;
+    border-right: 2px solid gray;
 }
 .input_container_search{
     width: 67%;    
@@ -114,3 +111,41 @@
         width: 90px;
     }
 }
+
+
+.container{
+    margin:3 rem auto;
+    width:90%;
+}
+.we_offer{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.we_offer_card:hover{
+    border-radius: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    border: 1px solid blanchedalmond;
+    transition:0.3s ease-in-out;
+    transform: calc(1.2);
+    padding: 13px;
+    margin-left: 60px;
+}
+.we_offer_card img{
+    width: 95%;
+    height: 170px;
+    object-fit:cover;
+    object-position:center;
+}
+.we_offer_content{
+    padding: 10px;
+}
+.we_offer_content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+..we_offer_content p{}
