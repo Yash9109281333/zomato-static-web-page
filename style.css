@@ -355,4 +355,134 @@ outline: none;
 .right .download_app_container div img{
     width: 35%;
 }
+/*media query for download app*/
+@media only screen and (max-width:1300px){
+    .get_the_app .semi_container .left
+    .get_the_app .semi_container .right{
+        flex: 1;
+    } 
+    .get_the_app .semi_container{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width:900px){
+    .get_the_app{
+        padding: 2rem 0;
+    }
+    .get_the_app .semi_container{
+        width: 95%;
+        flex-direction:column;
+    }
+}
+
+.footer{
+    width: 100%;
+}
+.footer_section1{
+    display: flex;
+    flex-wrap:wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+.footer_section1 img{
+    width: 240px;
+    justify-content: space-between;
+}
+.section1_button_container{
+    display: flex;
+    gap: 1rem;
+}
+.section1_button_container button{
+    padding: 5px;
+    width: 90px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+}
+.navigation_container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 1rem 0;
+}
+.link_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.link_container h5{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom:5px;
+    letter-spacing: 0.8px;
+
+}
+.link_container a{
+    color:gray;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 300px;
+}
+.link_container a:hover{
+    color: black;
+}
+.section_link_container{
+    display: flex;
+    gap:0.5rem;    
+}
+.section_link_container button{
+    border: none;
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    cursor:pointer;
+    background-color: black;
+    color: white;
+}
+.section_link_container button i{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer_sect_logo{
+    width: 90%;
+    height: 60px;
+}
+.disclamer{
+    font-size: 13px;
+    width: 80%;
+    color: grey;
+    margin: auto;
+    border-top: 1.5px solid grey;
+    padding-top: 1.5rem;
+}
+@media only screen and(max-width:900px){
+    .navigation_container{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+@media only screen and(max-width:500px){
+    .navigation_container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media only screen and(max-width:300px){
+    .navigation_container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
 
