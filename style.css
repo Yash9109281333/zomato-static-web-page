@@ -112,36 +112,30 @@ outline: none;
     }
 }
 
-
 .container{
-    margin: 3rem auto;
+    margin: 3rem;
     width: 90%;
 }
-
-
 .we_offer{
     display: flex;
-    flex-wrap:wrap;
-    gap: 1px;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     align-items: center;
     justify-content: center;
 }
- 
-.we_offer_card:hover{
+.we_offer_card{
     border-radius: 10px;
-    background-color: whitesmoke;
-    overflow: hidden;
-    border: 1px solid blanchedalmond;
-    transition:all 1s ease;
-    transform: calc(1.1);
-    padding: 13px;
-    margin-right: 12px;
+    /*background-color: aqua;*/
+    overflow:hidden;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+    margin-left: 22px;
+
 }
-
-
-
-
-.we__offer_card img{
+.we_offer_card:hover{
+    transform: scale(1.1);
+}
+.we_offer_card img{
     width: 100%;
     height: 170px;
     object-fit: cover;
@@ -155,13 +149,9 @@ outline: none;
     font-size: 20px;
     font-weight: 400;
 }
-
 .we__offer_content p{
     font-size: 12.5px;
 }
-
-
-
 
 
 .collection h1{
@@ -331,12 +321,13 @@ outline: none;
     width: 150px;
 }
 .input_container button{
-    border: none;
+    
     background-color: #ff7e8b;
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    border: 2px ;
+    border: 5px ;
+    border-color: black;
 }
 .right .download_app_container{
     display: flex;
